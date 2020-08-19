@@ -1,0 +1,41 @@
+<%-include("partials/header")%>
+<div class="ui main text container">
+    <div class="ui huge header">Akshaj's Blogs</div>
+    <div class="ui segment">
+
+        <div class="ui text container">
+            <% for(var i=0;i<blogs.length;i++){ %>
+                <div class="ui hidden divider"></div>
+                <div class="item ">
+                    <div class="ui rounded large image">
+                        <img src="<%=blogs[i].image%>">
+                    </div>
+                    <div class="ui hidden divider"></div>
+                    <div class="content"><a href="/blogs/<%=blogs[i]['_id']%>"><%=blogs[i].title%></a>
+                    </div>
+                    <div class="ui hidden divider"></div>
+                    <div class="meta">
+                        <span><%=blogs[i].created.toDateString()%></span>
+                    </div>
+                    <div class="ui hidden divider"></div>
+                    <div class="description">
+                        <p><%-blogs[i].body.substring(0,95)%>....</p>
+                    </div>
+                    
+                    <div class="ui hidden divider"></div>
+                    <div class="extra">
+                        <a class="ui floated violet button" href="/blogs/<%=blogs[i]['_id']%>">Read more</a>
+                    </div>
+                  <div class="ui hidden divider"></div>
+                    
+                   
+                </div>
+                <%}%>
+
+            
+        </div>
+    </div>
+
+
+</div>
+<%-include("partials/footer")%>
