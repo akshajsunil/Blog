@@ -1,0 +1,105 @@
+Counterfactual Coaching Outcome Reports
+Uses AI to simulate what would likely have happened to a banker’s performance if a specific coaching intervention had not taken place — providing tangible insights into coaching impact and effectiveness.
+------------------
+input
+Employee Context:
+Role: [e.g., Relationship Manager, Risk Analyst, Branch Lead]
+Coached Skill or Focus Area: [e.g., Time management, Compliance understanding, Team communication]
+Coaching Intervention Data:
+Coaching timeframe
+Session summaries or key topics
+Feedback notes or sentiment
+Performance Data:
+Before and after coaching KPIs (quantitative or qualitative)
+Examples: error rate, client satisfaction, revenue, case handling time, SLA compliance, etc.Peer benchmarks or trendlines (optional, for context)
+
+
+---------------------------------------------
+output
+
+| Metric               | Before Coaching | After Coaching | % Change |
+| -------------------- | --------------- | -------------- | -------- |
+| SLA Compliance       | 72%             | 89%            | +17%     |
+| Escalations          | 9/month         | 3/month        | -67%     |
+| Task Turnaround Time | 48 hrs          | 24 hrs         | -50%     |
+
+
+| Metric          | Predicted Without Coaching | Difference |
+| --------------- | -------------------------- | ---------- |
+| SLA Compliance  | 75%                        | -14%       |
+| Escalations     | 7/month                    | +4         |
+| Turnaround Time | 42 hrs                     | +18 hrs    |
+
+
+---------------------------------------------
+Use cases
+
+Justify coaching programs to leadership
+Prioritize coaching areas with the highest ROI
+Personalize development plans
+Show bankers the real value of self-improvement
+
+
+------------------------------------------------
+
+AI Sprint Retrospective Analyzer
+Harnessing AI for Effective Sprint Retrospectives
+
+-------------------------------------------------
+📥 Input Sources:
+Git commits
+Jira ticket history (statuses, comments)
+GitHub PRs (approvals, merge delays)
+
+------------------------------
+AI Output: Retrospective Summary
+✅What Went Well
+93% of committed stories completed (up from 82% last sprint)
+Frontend team integrated new component system
+PR review time improved to 6h (from 10h)
+⚠️What Didn’t Go Well
+API latency caused test failures on 3 days
+Two urgent stories added mid-sprint disrupted scope
+Several tickets had unclear requirements (flagged in 5 PRs)
+📌Action Items
+Finalize “performance disbursal rate” metric with Analytics
+Implement auto-scaling for dev DB
+QA to create test data checklist for planning
+📊Sprint Metrics
+142 commits
+27 PRs merged (avg time: 6h 32m)
+3 post-release bugs
+
+
+-----------------------------------
+
+Sentiment analysis and trend detection
+Uses advanced NLP to analyze written feedback.
+
+Gauges team morale through sentiment and emotion detection.
+
+Identifies recurring issues across sprints, such as bugs or bottlenecks.
+
+Enables proactive resolution of collaboration and process challenges.
+---------------------------------------
+
+Automated grouping and AI facilitation
+
+Automatically groups similar feedback items to streamline retrospectives.
+
+Helps teams focus on key issues instead of individual comments.
+
+Includes AI facilitation to guide discussions and prompt talking points.
+
+Summarizes critical takeaways to improve meeting efficiency.
+
+------------------------------------------
+
+				Time Saved
+
+60% reduction in retrospective meeting time
+(From automated synthesis of feedback & insights)Source: Internal user feedback from teams using AI-assisted retros + marketplace.atlassian.com integrations)
+10–15 hours saved per sprint for a team of 7–10 devs(Time otherwise spent manually analyzing feedback, discussing the same recurring issues)
+
+
+
